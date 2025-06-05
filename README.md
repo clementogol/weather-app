@@ -86,6 +86,7 @@ weather-app/
 ├── vite.config.js                        # Vite configuration
 └── README.md                             # This file
 
+---
 
 ## 🎨 UI Components
 
