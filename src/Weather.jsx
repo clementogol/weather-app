@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
-const API_KEY = "872c8eca22b4399dec5f20d060dcb891"
+const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY
 
 function Weather() {
   const [weatherData, setWeatherData] = useState(null)
