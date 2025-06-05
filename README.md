@@ -2,8 +2,7 @@
 
 A clean and simple weather application built with React, Vite, and Tailwind CSS. It allows users to fetch and display current weather information for any city using the OpenWeatherMap API.
 
-![App Screenshot Placeholder](https://via.placeholder.com/800x450.png?text=Your+App+Screenshot+Here)
-*(Replace the placeholder above with an actual screenshot of your app!)*
+![App Screenshot Placeholder](./src/assets/weather-app-screenshot.png)
 
 ## ✨ Features
 
