@@ -52,7 +52,7 @@ Follow these steps to get a local copy up and running.
     *   Add your OpenWeatherMap API key to the `.env` file:
         ```env
         VITE_OPENWEATHERMAP_API_KEY=your_actual_api_key_here
-        
+
         ```
         *Note: Vite exposes environment variables prefixed with `VITE_` to your client-side code via `import.meta.env`.*
 
@@ -69,22 +69,22 @@ Here's an overview of the key files and directories:
 ```text
 weather-app/
 ├── public/
-│   └── vite.svg            # Vite logo (example asset)
+│   └── vite.svg                          # Vite logo (example asset)
 ├── src/
 │   ├── assets/
-│   │   └── vue.svg         # Vue logo (example asset, can be removed if not used)
+│   │   └── weather-app-screenshot.png    # Weather app screenshot image
 │   ├── styles/
-│   │   └── global.css      # Global styles, Tailwind base/components/utilities
-│   ├── Weather.jsx         # Main weather component logic and UI
-│   └── main.jsx            # Entry point of the React application
+│   │   └── global.css                    # Global styles, Tailwind base/components/utilities
+│   ├── Weather.jsx                       # Main weather component logic and UI
+│   └── main.jsx                          # Entry point of the React application
 ├── .gitignore
-├── index.html              # Main HTML file
+├── index.html                            # Main HTML file
 ├── package.json
 ├── pnpm-lock.yaml
-├── postcss.config.js       # PostCSS configuration (for Tailwind)
-├── tailwind.config.js      # Tailwind CSS configuration
-├── vite.config.js          # Vite configuration
-└── README.md               # This file
+├── postcss.config.js                     # PostCSS configuration (for Tailwind)
+├── tailwind.config.js                    # Tailwind CSS configuration
+├── vite.config.js                        # Vite configuration
+└── README.md                             # This file
 
 
 ## 🎨 UI Components
