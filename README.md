@@ -52,15 +52,7 @@ Follow these steps to get a local copy up and running.
     *   Add your OpenWeatherMap API key to the `.env` file:
         ```env
         VITE_OPENWEATHERMAP_API_KEY=your_actual_api_key_here
-        ```
-    *   **Important:** Update your `Weather.jsx` component to use this environment variable.
-        Replace:
-        ```javascript
-        const API_KEY = "872c8eca22b4399dec5f20d060dcb891"
-        ```
-        With:
-        ```javascript
-        const API_KEY = import.meta.env.VITE_OPENWEATHERMAP_API_KEY
+        
         ```
         *Note: Vite exposes environment variables prefixed with `VITE_` to your client-side code via `import.meta.env`.*
 
